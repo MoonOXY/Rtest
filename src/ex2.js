@@ -28,7 +28,7 @@ export default function RenderingEffects() {
         these two renderings are within one rendering cycle, under normal circumstances 5 is displayed between pages.<br /><br />
 
         But during the experiment, I found that if the page is refreshed very quickly, the page will not have time <br />
-        to run the function and will flash a screen with a count of 10.</div>
+        to run the function and will flash a screen with a count of 10.=_=</div>
     </div>
   );
 }
