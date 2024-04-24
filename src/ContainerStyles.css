@@ -1,0 +1,101 @@
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    /* 保持子容器分布在两端 */
+    align-items: center;
+    /* 确保子项垂直居中 */
+    border-radius: 16px;
+    /* 圆角 */
+    background-color: #fff;
+    /* 背景颜色 */
+    padding: 16px 0px 16px 0px;
+    width: 339px;
+    /* 设置主容器的宽度为 343px */
+    height: auto;
+    /* 高度根据内容自动调整 */
+    margin: 0 auto;
+    /* 水平居中 */
+    border: 2px solid #808080;
+    /* 灰色的描边 */
+}
+
+.left-container {
+    width: 120px;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+}
+
+.left-container img {
+    width: 120px;
+    /* 限定图片宽度为 120px */
+    height: 120px;
+    /* 限定图片高度为 120px */
+    object-fit: contain;
+    /* 缩放图片以保持宽高比 */
+}
+
+.right-container {
+    flex-shrink: 0;
+    /* 防止右侧容器缩小 */
+    flex: 1;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    /* 高度自动根据内容调整 */
+}
+
+.right-container h2 {
+    color: #696969;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0px 0px 0px 0px;
+}
+
+.right-container p {
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0px;
+    padding-right: 10px;
+}
+
+.newPrice {
+    color: #BF0000;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.newPriceWord {
+    color: #BF0000;
+    font-size: 14px;
+    margin-left: 10px;
+    margin: 3px;
+    font-weight: bold;
+}
+
+.usedPrice {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.usedPriceWord {
+    color: black;
+    font-size: 14px;
+    margin-left: 10px;
+    margin: 3px 0px;
+}
+
+.parallel-container {
+    display: flex;
+    align-items: flex-end;
+    margin: 0px;
+    padding: 0px;
+}
+
+.right-container h2 {
+    color: gray;
+}
