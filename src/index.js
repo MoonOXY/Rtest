@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import ConsoleLog from './ex1';
 import RenderingEffects from './ex2';
 import AdsComponent from './ex3.tsx';
+//import productData from './data.json';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
